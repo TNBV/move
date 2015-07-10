@@ -53,7 +53,11 @@
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="movement_forward" id="218"></block>
+                                                  <block type="movement_forward" id="218">
+                                                    <next>
+                                                      <block type="movement_stop" id="229"></block>
+                                                    </next>
+                                                  </block>
                                                 </next>
                                               </block>
                                             </next>
